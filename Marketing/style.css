@@ -1,0 +1,136 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20pt;
+    margin: 0;
+}
+
+#logo{
+    width: 100%;
+    height: 5rem;
+    background-color: black;
+}
+
+/*main 1*/
+#main1{
+    height: 92vh;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+}
+
+#text-main-1{
+    width: 40%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#pcolor{
+    color:  rgb(110, 147, 74);
+    font-weight: 500;
+}
+
+.button-p{
+    background-color: rgb(110, 147, 74);
+    color: #fff;
+    padding: 25px;
+    margin: 20px;
+    border: none;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: 1.0s;
+}
+.button-p:hover{
+    transform: scale(1.1);
+    pointer-events: mouse;
+    background-color: chartreuse;
+
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/*Main 2 - formulario*/
+#main2{
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: rgb(218, 212, 212);
+}
+
+#img{
+    width: 40%;
+    background-color: chartreuse;
+
+}
+
+#main-formulario{
+    width: 40%;
+    display: flex;
+    margin: auto;
+    padding: 30px;
+    flex-direction: column;
+}
+
+#main-formulario, #pcolor{
+    font-size: 30pt;
+    font-weight: 600;
+}
+
+#main-formulario input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30px;
+    margin: 5px;
+    border: solid 1px rgb(170, 162, 162);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#form-p{
+    font-size: 30pt;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+#main-formulario button{
+    width: 100%;
+}
+
+/*Main 3 */
+#main3{
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#text-main-3{
+    width: 50%;
+    height: 50vh;
+    text-align: center;
+    padding: 30px;
+}
+
+/*Main 4*/
+#main4{
+    background-color: chartreuse;
+    color: #fff;
+    height: 40vh;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+}
+
+
